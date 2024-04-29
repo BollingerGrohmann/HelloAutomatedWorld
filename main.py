@@ -408,7 +408,6 @@ def automate_function(
                                     echo_level = 1,
                                     scale_spheres = False)
     evaluation.run()
-
     
     # test = version_root_object.get_registered_type("@Structural Columns", "@Tragwerksstützen")
     # for col in test:       
