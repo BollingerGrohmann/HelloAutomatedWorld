@@ -1,9 +1,12 @@
 {
   "speckleToken": "YOUR SPEKCLE TOKEN",
-  "functionInputs": {
-    "whisperMessage": "you are doing something weird",
-    "forbiddenSpeckleType": ""
-  },
+    "functionInputs": {
+        "tolerance": "",
+        "echo_level": "",
+        "scale_spheres": "",
+        "whisperMessage": "you are doing something weird",
+        "forbiddenSpeckleType": ""
+    },
   "automationRunData": {
     "project_id": "project id",
     "model_id": "model id",
