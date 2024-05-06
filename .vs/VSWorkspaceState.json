@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.devcontainer",
+    "\\.github",
+    "\\tests"
   ],
-  "SelectedNode": "\\C:\\Users\\mwittich\\Desktop\\HOME_OFFICE\\04-SOFTWARE\\01-Repositories\\HelloAutomatedWorld",
+  "SelectedNode": "\\tests",
   "PreviewInSolutionExplorer": false
 }
