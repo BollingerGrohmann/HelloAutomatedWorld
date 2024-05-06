@@ -11,7 +11,7 @@ import math
 from specklepy.objects.geometry import Base
 from specklepy.objects.other import RenderMaterial
 
-from pydantic import Field, SecretStr
+from pydantic import Field, SecretStr, StrictFloat
 from speckle_automate import (
     AutomateBase,
     AutomationContext,
@@ -30,6 +30,10 @@ class FunctionInputs(AutomateBase):
     """
 
     # an example how to use secret values
+    tolerance: float = Field(title="tolerance",description="a tolerance for ofset evaluation")
+    echo_level: int = Field(title="echo level",description="")
+    scale_spheres:bool = Field(title="",description="")
+
     whisper_message: SecretStr = Field(title="This is a secret message")
     forbidden_speckle_type: str = Field(
         title="Forbidden speckle type",
