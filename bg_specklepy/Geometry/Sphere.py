@@ -1,3 +1,6 @@
+from specklepy.objects.geometry import Mesh
+from trimesh.primitives import Sphere as trimesh_sphere
+
 class Sphere():
 
     '''
