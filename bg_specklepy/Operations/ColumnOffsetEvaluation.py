@@ -54,8 +54,8 @@ class ColumnOffsetEvaluation():
     def _check_commit_quality(self):
 
         '''
-        Hier wollen wir ein paar Sachen überprüfen, z.B.:
-            -   ToDo muss ein normales Revit-Modell sein (nicht ein Berechnungsmodell). Ein Berechnungsmodell hat Stützen ohne "baseLine" Attributen
+        Hier wollen wir ein paar Sachen ueberpruefen, z.B.:
+            -   ToDo muss ein normales Revit-Modell sein (nicht ein Berechnungsmodell). Ein Berechnungsmodell hat Stuetzen ohne "baseLine" Attributen
         '''
 
         # HACKY - muss einen besseren Weg geben?
