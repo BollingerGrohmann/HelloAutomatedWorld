@@ -6,7 +6,7 @@ authors = ["Max Wittich <mwittich@bollinger-grohmann.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
 specklepy = "2.17.17"
 
 [tool.poetry.group.dev.dependencies]
