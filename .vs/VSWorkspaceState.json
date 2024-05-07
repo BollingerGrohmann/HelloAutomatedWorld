@@ -3,8 +3,12 @@
     "",
     "\\.devcontainer",
     "\\.github",
+    "\\.github\\workflows",
+    "\\bg_specklepy",
+    "\\bg_specklepy\\Geometry",
+    "\\bg_specklepy\\Operations",
     "\\tests"
   ],
-  "SelectedNode": "\\tests",
+  "SelectedNode": "\\main.py",
   "PreviewInSolutionExplorer": false
 }

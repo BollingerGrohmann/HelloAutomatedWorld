@@ -2,14 +2,17 @@
 
 Use the automation_context module to wrap your function in an Autamate context helper
 """
-from specklepy.objects.geometry import Mesh
-from trimesh.primitives import Sphere as trimesh_sphere
+
+
 import os
 import sys
 import pandas as pd
 import math
 from specklepy.objects.geometry import Base
+from specklepy.objects.geometry import Mesh
 from specklepy.objects.other import RenderMaterial
+from trimesh.primitives import Sphere as trimesh_sphere
+from bg_specklepy.Operations import ColumnOffsetEvaluation
 
 from pydantic import Field, SecretStr, StrictFloat
 from speckle_automate import (
