@@ -5,6 +5,7 @@ import sys
 import pandas as pd
 import math
 from specklepy.objects.geometry import Base
+from specklepy.objects.geometry import Sphere
 from specklepy.objects.other import RenderMaterial
 
 class ColumnOffsetEvaluation():
