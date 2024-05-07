@@ -63,6 +63,7 @@ def automate_function(
     version_root_object = automate_context.receive_version()    
     
     #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    #test
     evaluation = ColumnOffsetEvaluation(commit_data = version_root_object,
                                     tolerance = 0.02,
                                     echo_level = 1,
