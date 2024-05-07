@@ -11,8 +11,6 @@ import sys
 import math
 from specklepy.objects.geometry import Base
 from specklepy.objects.geometry import Mesh
-from specklepy.objects.other import RenderMaterial
-from trimesh.primitives import Sphere as trimesh_sphere
 from bg_specklepy.Operations import ColumnOffsetEvaluation
 
 from pydantic import Field, SecretStr, StrictFloat
