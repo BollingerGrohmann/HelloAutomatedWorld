@@ -12,6 +12,7 @@ import math
 from specklepy.objects.geometry import Base
 from specklepy.objects.geometry import Mesh
 from bg_specklepy.Operations import ColumnOffsetEvaluation
+import pandas as pd
 
 from pydantic import Field, SecretStr, StrictFloat
 from speckle_automate import (
