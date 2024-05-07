@@ -32,11 +32,11 @@ class FunctionInputs(AutomateBase):
     https://docs.pydantic.dev/latest/usage/models/
     """
 
-    # an example how to use secret values
-    tolerance: float = Field(title="tolerance",description="a tolerance for ofset evaluation")
-    echo_level: int = Field(title="echo level",description="")
-    scale_spheres:bool = Field(title="",description="")
+    # tolerance: float = Field(title="tolerance",description="a tolerance for ofset evaluation")
+    # echo_level: int = Field(title="echo level",description="")
+    # scale_spheres:bool = Field(title="",description="")
 
+    # an example how to use secret values   
     whisper_message: SecretStr = Field(title="This is a secret message")
     forbidden_speckle_type: str = Field(
         title="Forbidden speckle type",

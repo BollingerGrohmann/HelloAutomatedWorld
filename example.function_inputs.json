@@ -1,9 +1,9 @@
 {
   "speckleToken": "YOUR SPEKCLE TOKEN",
     "functionInputs": {
-        "tolerance": 0.02,
-        "echo_level": 1,
-        "scale_spheres": false,
+        //"tolerance": 0.02,
+        //"echo_level": 1,
+        //"scale_spheres": false,
         "whisperMessage": "you are doing something weird",
         "forbiddenSpeckleType": ""
     },
