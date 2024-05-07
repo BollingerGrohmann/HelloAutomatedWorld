@@ -1,3 +1,5 @@
+# -*- coding: latin-1 -*-
+
 import os
 import sys
 import pandas as pd
@@ -69,7 +71,7 @@ class ColumnOffsetEvaluation():
             raise AttributeError("Commit data not of correct speckle type. A Revit Model needs to be used as basis input.")
 
         # More languages to be added. But, Revit export should be standard english
-        for column_parameter in ["@Structural Columns", "@Tragwerksstuetzen"]:
+        for column_parameter in ["@Structural Columns", "@Tragwerksstützen"]:
             try:
                 self.column_elements = self.commit_data[column_parameter]
                 self.column_parameter = column_parameter

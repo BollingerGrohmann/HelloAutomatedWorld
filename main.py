@@ -1,3 +1,5 @@
+# -*- coding: latin-1 -*-
+
 """This module contains the business logic of the function.
 
 Use the automation_context module to wrap your function in an Autamate context helper
