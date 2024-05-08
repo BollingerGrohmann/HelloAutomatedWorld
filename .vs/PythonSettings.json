@@ -1,4 +1,4 @@
 {
   "TestFramework": "Pytest",
-  "Interpreter": "Global|PythonCore|3.11"
+  "Interpreter": "Global|VisualStudio|my_speckle_automate_env"
 }
