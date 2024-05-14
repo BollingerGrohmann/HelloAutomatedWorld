@@ -35,7 +35,7 @@ class FunctionInputs(AutomateBase):
 
     tolerance: float = Field(title="tolerance",description="a tolerance for ofset evaluation")
     echo_level: int = Field(title="echo level",description="")
-    scale_spheres:bool = Field(title="",description="")
+    scale_spheres:bool = Field(title="scale spheres",description="")
 
     # an example how to use secret values   
     whisper_message: SecretStr = Field(title="This is a secret message")
